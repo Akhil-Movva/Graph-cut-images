@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ccdbc15c-d35e-4fef-b7e2-0d55376f9f8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Texture-Synthesis/TextureSynthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Texture-Synthesis/Texture_Synthesis_cut1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Texture-Synthesis/weave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Image-Composition/GraphCut.py" beforeDir="false" afterPath="$PROJECT_DIR$/Image-Composition/GraphCut.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +31,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hites/Documents/GitHub/Graph-cut-images/Image-Composition"
+    "last_opened_file_path": "C:/Users/hites/Documents/GitHub/Graph-cut-images/Texture-Synthesis"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hites\Documents\GitHub\Graph-cut-images\Texture-Synthesis" />
       <recent name="C:\Users\hites\Documents\GitHub\Graph-cut-images\Image-Composition" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,5 +81,16 @@
       <updated>1650944867071</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

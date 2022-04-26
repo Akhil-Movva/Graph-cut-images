@@ -119,7 +119,7 @@ cv2.imwrite('sea_bird_mask.png', output )
 
 
 dst = cv2.imread("tajmahal.jpg")
-# read dimensions to set tailor or dynamic positions
+# read dimensions to set tailor or Tdynamic positions
 height_dst, width_dst, channels_dst = dst.shape
 print( '1', height_dst, width_dst, channels_dst )
 src_mask = cv2.imread("sea_bird_mask.png")
