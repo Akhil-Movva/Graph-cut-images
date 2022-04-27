@@ -24,8 +24,12 @@ In this assignment, composition of 2 images is performed using graphcuts. Furthe
 
 ### Instructions to run the code
 #### Graph cut
-After changing the directory to ***Image-Composition*** directory, type the following command into the termainal and press 'ENTER' key.
+1. After changing the directory to ***Image-Composition*** directory, type the following command into the termainal and press 'ENTER' key.
 >python GraphCut.py
+2. After running the above command, the input image(sea_bird) opens in a new window. Then rectangular patch containing the bird is selected and lower case letter 'a' should be pressed to confirm the selection of the object.
+3. After confirming the selection, you will get a new named window named definite background and then after pressing any letter on the keyboard you will get a window named probable background and again pressing any letter on the keyboard you will get definite foreground.
+4. We will continue the process described above until we see a window named GrabCut output.
+5. At this point, we have our composited image in the ***Image-Composition*** directory.
 
 #### Texture synthesis
 After changing the directory to ***Texture-Synthesis*** directory, type the following command into the termainal and press 'ENTER' key.
@@ -42,7 +46,7 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
   ##### Intermediate Outputs
    Generated Mask
    
-  ![sea_bird_mask](https://user-images.githubusercontent.com/28916768/165422168-34878ab3-1206-435c-9f7d-d4951e364e7b.png)
+  ![sea_bird_mask](https://user-images.githubusercontent.com/2891676AA8/165422168-34878ab3-1206-435c-9f7d-d4951e364e7b.png)
 
   
   
