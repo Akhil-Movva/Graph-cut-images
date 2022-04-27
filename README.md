@@ -40,6 +40,10 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
  ![tajmahal](https://user-images.githubusercontent.com/28916768/165418309-e5231f67-4a05-4861-aa47-119eac79d899.jpg)
 
   ##### Intermediate Outputs
+   Generated Mask
+   
+  ![sea_bird_mask](https://user-images.githubusercontent.com/28916768/165422168-34878ab3-1206-435c-9f7d-d4951e364e7b.png)
+
   
   
   ##### Final Output
