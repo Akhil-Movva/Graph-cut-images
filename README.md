@@ -13,7 +13,7 @@ In this assignment, composition of 2 images is performed using graphcuts. Furthe
 
 
 
-### Texture synthesis
+#### Texture synthesis
 1. numpy
 2. io,util from skimage
 3. heapq
