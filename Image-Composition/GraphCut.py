@@ -125,7 +125,26 @@ print( '1', height_dst, width_dst, channels_dst )
 src_mask = cv2.imread("sea_bird_mask.png")
 height_mask, width_mask, channels_mask = src_mask.shape
 print( '2',  height_mask, width_mask, channels_mask )
+
+newImage = image.copy()
+gray = cv2.cvtColor(src_mask, cv2.COLOR_BGR2GRAY)
+cnts = cv2.findContours(gray, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+cnts = cnts[0] if len(cnts) == 2 else cnts[1]
+for c in cnts:
+    cv2.drawContours(newImage, [c], -1, (36, 255, 12), thickness=5)
+
+cv2.imshow('Outine_ForeGround_Information', newImage)
+cv2.waitKey()
+cv2.imwrite("Outline_ForeGround_Info.jpg", newImage)
+
+monoMaskImage_temp = cv2.split(newImage)[0] # reducing the mask to a monochrome
+br1 = cv2.boundingRect(monoMaskImage_temp) # bounding rect (x,y,width,height)
+centerOfBR = (br1[0] + br1[2] // 2, br1[1] + br1[3] // 2)
+output_transp = cv2.seamlessClone(newImage, dst, src_mask, centerOfBR, cv2.NORMAL_CLONE)
+cv2.imwrite("Destination_Transparant.jpg", output_transp)
 #READ DESTINATION IMAGE AND NEWLY CREATED MAS END
+
+
 
 #SET CENTER POSITION SEAMLESS CLONE BEGIN
 
