@@ -60,6 +60,12 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
 
 
 
+ ## References
+ 
+ 1. https://pythonprogramming.net/grabcut-foreground-extraction-python-opencv-tutorial/
+ 2. https://www.youtube.com/watch?v=o1lEjkv5o_8&t=1s
+ 3. https://subscription.packtpub.com/book/web-development/9781788474443/4/ch04lvl1sec50/obtaining-an-object-mask-using-the-grabcut-algorithm
+ 4. https://devashi-choudhary.medium.com/texture-synthesis-generating-arbitrarily-large-textures-from-image-patches-32dd49e2d637
  
 
 
