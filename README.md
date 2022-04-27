@@ -49,6 +49,8 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
   ![sea_bird_mask](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/sea_bird_mask.png)
   
   
+  Image showing cut on the source image
+  ![outline_foreground_info](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/Outline_ForeGround_Info.jpg)
 
   
   
