@@ -46,7 +46,9 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
   ##### Intermediate Outputs
    Generated Mask
    
-  ![sea_bird_mask](https://user-images.githubusercontent.com/2891676AA8/165422168-34878ab3-1206-435c-9f7d-d4951e364e7b.png)
+  ![sea_bird_mask](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/sea_bird_mask.png)
+  
+  
 
   
   
