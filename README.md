@@ -28,7 +28,7 @@ In this assignment, composition of 2 images is performed using graphcuts. Furthe
 >python GraphCut.py
 2. After running the above command, the input image(sea_bird) opens in a new window. Then rectangular patch containing the bird is selected and lower case letter 'a' should be pressed to confirm the selection of the object.
 3. After confirming the selection, you will get a new named window named definite background and then after pressing any letter on the keyboard you will get a window named probable background and again pressing any letter on the keyboard you will get definite foreground.
-4. We will continue the process described above until we see a window named final output.
+4. We will continue the process described above until we see a window named Outline_Foreground_Information.
 5. At this point, we have our composited image in the ***Image-Composition*** directory.
 
 #### Texture synthesis
