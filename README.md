@@ -35,6 +35,8 @@ In this assignment, composition of 2 images is performed using graphcuts. Furthe
 After changing the directory to ***Texture-Synthesis*** directory, type the following command into the termainal and press 'ENTER' key.
 >python TextureSynthesis.py
 
+**Note**: Texture synthesis is taking about 15-20 minutes to generate the output.
+
 ### Interpreting the output
 #### Graph cut
 
