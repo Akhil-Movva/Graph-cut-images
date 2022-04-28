@@ -112,6 +112,9 @@ cv2.waitKey(0)
 
 cv2.imwrite('sea_bird_mask.png', output )
 
+#Generating pixels that are identified as cut in a text file
+np.savetxt('pixels.txt', output)
+
 
 
 #GRAB MASK AND CREATE DYNAMIC MASK END
