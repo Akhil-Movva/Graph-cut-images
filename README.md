@@ -58,7 +58,9 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
   
   ![outline_foreground_info](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/Outline_ForeGround_Info.jpg)
 
+  Link to the text file containing pixels of the cut
   
+  https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/pixels.txt
   
   ##### Final Output
    Compositing new image into old one
