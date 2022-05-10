@@ -55,8 +55,10 @@ After changing the directory to ***Texture-Synthesis*** directory, type the foll
   ![Destination_Trasparant](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/Destination_Trasparant.jpg)
   
   Image showing cut on the source image
-  Here, the part inside the green boundary will be combined with the target image to achieve image composition
+  
   ![outline_foreground_info](https://github.com/Akhil-Movva/Graph-cut-images/blob/main/Image-Composition/Outline_ForeGround_Info.jpg)
+   
+   Here, the part inside the green boundary will be combined with the target image to achieve image composition.
 
   Link to the text file containing pixels of the cut
   
